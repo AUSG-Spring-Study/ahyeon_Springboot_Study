@@ -1,6 +1,6 @@
 ## ahyeon_Springboot_Study
 <br>
-#### ✨ 스프링스터디 
+#### 스프링스터디 
 <table>
   <tr>
     <td>chapter</td>
