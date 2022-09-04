@@ -6,6 +6,6 @@
 
 compile('org.springframework.boot:spring-boot-starter-web')<br>
 testCompile('org.springframework.boot:spring-boot-starter-test')<br>
-<br>아래와 같이 수정
+<br>아래와 같이 수정하였더니 오류가 해결되었다.<br>
 implementation('org.springframework.boot:spring-boot-starter-web')<br>
 testImplementation('org.springframework.boot:spring-boot-starter-test')
