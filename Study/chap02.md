@@ -16,7 +16,7 @@
 
 - @SpringBootApplication : 스프링부트의 자동설정, 스프링 Bean 읽기와 생성을 자동으로 설정해준다. 쓰인 곳부터 설정을 읽어가기 때문에 최상단에 위치해야한다. 
 - main 메소드에서 실행하는 SpringApplication.run으로 인해 내장 WAS를 실행한다.
->> 내장 WAS란 ? 별도로 외부에 WAS를 두지 않고 애플리케이션을 실행할 때 내부에서 WAS를 실행하는 것을 이야기한다. 항상 서버에 톰캣을 설치할 필요가 없게 되고 Jar파일로 실행하면 된다.
+> 내장 WAS란 ? 별도로 외부에 WAS를 두지 않고 애플리케이션을 실행할 때 내부에서 WAS를 실행하는 것을 이야기한다. 항상 서버에 톰캣을 설치할 필요가 없게 되고 Jar파일로 실행하면 된다.
 - @RestController : 컨트롤러 JSON을 반환하는 컨트롤러를 만들어준다.
 - @GetMapping : HTTP GET 요청을 받을 수 있는 API를 만들어준다.
 
@@ -53,7 +53,6 @@
 <div markdown="1">
   <img width="1420" alt="3" src="https://user-images.githubusercontent.com/80513699/189526306-16bdbe90-72cf-41ac-9b5f-b78fd8ed4d1f.png">
   터미널에 입력 ./gradlew wrapper --gradle-version 4.10.2 로 버전다운그레이드
-  <img width="1420" alt="3" src="https://user-images.githubusercontent.com/80513699/189526306-16bdbe90-72cf-41ac-9b5f-b78fd8ed4d1f.png">
 </div>
 </details>
   
