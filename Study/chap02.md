@@ -1,9 +1,8 @@
 ## Chapter02. 스프링부트에서 테스트 코드 작성하자
 
-TDD (Test-Driven-Development) 란? 
-테스트 주도 개발이라고 한다. 기존 프로세스와 다르게 테스트 코드를 작성한 후 실제 코드를 개발하여 리펙토링하는 절차를 따른다.
-![스크린샷 2022-09-09 오후 4.02.13.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e88b1417-8e33-4eca-9e6f-5de1d7d6b005/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-09-09_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.02.13.png)
-![스크린샷 2022-09-09 오후 4.02.39.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01d0bc8d-5c1e-4890-b1f0-fdbede9906c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-09-09_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.02.39.png)
+TDD (Test-Driven-Development) 란? <br>
+테스트 주도 개발이라고 한다. 기존 프로세스와 다르게 테스트 코드를 작성한 후 실제 코드를 개발하여 리펙토링하는 절차를 따른다.<br>
+
 
 <br><br>
 |   | TDD | 단위 테스트 |
@@ -27,8 +26,10 @@ TDD (Test-Driven-Development) 란?
 <details>
 <summary>2.2 Hello Controller 테스트 코드 작성하기 - No tests found for given includes: Test코드 실행 에러</summary>
 <div markdown="1">
-  ![스크린샷 2022-09-11 오후 3.31.19.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/810b3601-4b06-462a-8845-3e12757e28e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-09-11_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.31.19.png)
-  ![스크린샷 2022-09-11 오후 4.27.40.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/03381518-f0a5-4b0d-9153-bda81948588a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-09-11_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.27.40.png)
+  <img width="981" alt="1" src="https://user-images.githubusercontent.com/80513699/189526291-1bad8cb5-1e69-45ed-bd61-871b8d80335f.png">
+
+  <img width="1019" alt="2" src="https://user-images.githubusercontent.com/80513699/189526300-e14c1a0e-825c-485b-bf69-212eb582f9f0.png">
+
 </div>
 </details>
 
@@ -36,7 +37,8 @@ TDD (Test-Driven-Development) 란?
 <details>
 <summary>2.4 Hello Controller 코드를 롬복으로 전환하기 - 그레들 버전 다운그레이드 </summary>
 <div markdown="1">
-  ![스크린샷 2022-09-11 오후 7.47.28.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3b55beb-42f3-4820-bb2e-2a60453c22e9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-09-11_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_7.47.28.png)
+  <img width="1420" alt="3" src="https://user-images.githubusercontent.com/80513699/189526306-16bdbe90-72cf-41ac-9b5f-b78fd8ed4d1f.png">
+
 </div>
 </details>
   
