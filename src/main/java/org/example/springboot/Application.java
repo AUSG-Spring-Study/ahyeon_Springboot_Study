@@ -2,11 +2,12 @@ package org.example.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 
 @SpringBootApplication
+@EnableJpaAuditing
+
 //스프링 부트의 자동 설정 , 사용하는 위치 부터 설정을 읽어 가기 때문에 항상 프로젝트의 최상단에 위치해 있어야 한다.
 
 public class Application {
