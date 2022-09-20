@@ -3,23 +3,23 @@
 
 ### 3.1 JPA 소개
 참고) JPA(자바 표준 ORM: Object Relational Mapping)란? <br>
->객체를 관계형 데이터베이스에서 관리하는 것<br>
+>객체를 관계형 데이터베이스에서 관리하는 것<br><br><br>
 ✅ JPA 사용하였을 때 장점
 1. CRUD 쿼리 직접 작성할 필요가 없음
-2. 부모-자식 관계 표현, 1:N 관계 표현, 상태와 행위를 한 곳에서 관리하는 등 객체지향 프로그래밍을 쉽게 할 수 있다.
-<br>
-### 3.2 프로젝트에서 Spring Data JPA 적용하기
+2. 부모-자식 관계 표현, 1:N 관계 표현, 상태와 행위를 한 곳에서 관리하는 등 객체지향 프로그래밍을 쉽게 할 수 있다.<br>
+
+### 3.2 프로젝트에서 Spring Data JPA 적용하기<br>
 - @spring-boot-starter-data-jpa : JPA 관련 라이브러리들의 버전을 관리해준다.
 - @h2 : 인메모리 관계형 데이터베이스
 - @Entity :테이블과 링크될 클래스임을 나타낸다.
-- @NoArgsConstructor: 기본 생성자 자동추가
-<br>
-### 3.3 Spring Data JPA 테스트 코드 작성하기
-- postsRepository.save : 테이블 posts에 insert/update 쿼리를 실행한다.
-- postsRepository.findAll() : 테이블 posts에 있는 모든 데이터 조회해오는 메소드이다.
+- @NoArgsConstructor: 기본 생성자 자동추가<br>
 
-<br>
-### 3.4 등록/수정/조회 API 만들기
+### 3.3 Spring Data JPA 테스트 코드 작성하기<br>
+- postsRepository.save : 테이블 posts에 insert/update 쿼리를 실행한다.
+- postsRepository.findAll() : 테이블 posts에 있는 모든 데이터 조회해오는 메소드이다.<br>
+
+
+### 3.4 등록/수정/조회 API 만들기<br>
 <details>
 <summary>기본적인 등록/수정/조회 기능을 만들고 테스트</summary>
 <div markdown="1">
