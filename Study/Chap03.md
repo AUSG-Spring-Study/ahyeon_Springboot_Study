@@ -24,17 +24,17 @@
 <details>
 <summary>기본적인 등록/수정/조회 기능을 만들고 테스트</summary>
 <div markdown="1">
-  <img width="1160" alt="스크린샷 2022-09-21 오전 2 33 31" src="https://user-images.githubusercontent.com/80513699/191325611-16c12f09-f50d-42da-b656-4fcafcbab87c.png">
-  Post 등록 API 테스트 결과
-  <img width="480" alt="스크린샷 2022-09-21 오전 2 10 42" src="https://user-images.githubusercontent.com/80513699/191325765-ebcbfd14-71d1-435c-9294-c368b336ead8.png">
-  http://localhost:8080/h2-console 접속 *H2데이터베이스 연결을 위해 JDBC URL을 확인한다. 처음에 “jdbc:h2:~/test” 라고 적혀있는데, 이를 강의 자료에 있는 것처럼 “jdbc:h2:mem:testdb”로 바꿔주어야 정상적으로 연결됨.
-  <img width="1512" alt="스크린샷 2022-09-21 오전 2 12 29" src="https://user-images.githubusercontent.com/80513699/191326259-383970c7-0fef-444c-bd50-0ca0d1f2ab72.png">
-  간단한 쿼리 실행
-  > SELECT * FROM posts; 
-  <img width="1512" alt="스크린샷 2022-09-21 오전 2 13 17" src="https://user-images.githubusercontent.com/80513699/191326389-841d6d32-544e-4fc8-873f-f5ebfde65375.png">
-  insert 쿼리 실행
-  <img width="519" alt="스크린샷 2022-09-21 오전 2 14 10" src="https://user-images.githubusercontent.com/80513699/191326552-058f2ffc-3904-4bbc-b693-1ff368d7ff61.png">
-  브라우저로 API 조회
+  <img width="1160" alt="스크린샷 2022-09-21 오전 2 33 31" src="https://user-images.githubusercontent.com/80513699/191325611-16c12f09-f50d-42da-b656-4fcafcbab87c.png"><br>
+  Post 등록 API 테스트 결과<br>
+  <img width="480" alt="스크린샷 2022-09-21 오전 2 10 42" src="https://user-images.githubusercontent.com/80513699/191325765-ebcbfd14-71d1-435c-9294-c368b336ead8.png"><br>
+  http://localhost:8080/h2-console 접속 *H2데이터베이스 연결을 위해 JDBC URL을 확인한다. 처음에 “jdbc:h2:~/test” 라고 적혀있는데, 이를 강의 자료에 있는 것처럼 “jdbc:h2:mem:testdb”로 바꿔주어야 정상적으로 연결됨.<br>
+  <img width="1512" alt="스크린샷 2022-09-21 오전 2 12 29" src="https://user-images.githubusercontent.com/80513699/191326259-383970c7-0fef-444c-bd50-0ca0d1f2ab72.png"><br>
+  간단한 쿼리 실행<br>
+  > SELECT * FROM posts; <br>
+  <img width="1512" alt="스크린샷 2022-09-21 오전 2 13 17" src="https://user-images.githubusercontent.com/80513699/191326389-841d6d32-544e-4fc8-873f-f5ebfde65375.png"><br>
+  insert 쿼리 실행<br>
+  <img width="519" alt="스크린샷 2022-09-21 오전 2 14 10" src="https://user-images.githubusercontent.com/80513699/191326552-058f2ffc-3904-4bbc-b693-1ff368d7ff61.png"><br>
+  브라우저로 API 조회<br>
 
 
 </div>
@@ -44,10 +44,10 @@
 <details>
 <summary>데이터 생성 시간 자동화하기  </summary>
 <div markdown="1">
-  <img width="270" alt="스크린샷 2022-09-21 오전 2 42 14" src="https://user-images.githubusercontent.com/80513699/191327192-823887ba-9bba-4f91-85ac-0e57e725e4fc.png">
-  domain 패키지에 BaseTimeEntity 클래스 생성
-  <img width="720" alt="스크린샷 2022-09-21 오전 2 41 46" src="https://user-images.githubusercontent.com/80513699/191327096-0dd02909-8267-4a45-b82e-29990259e046.png">
-  JPA Auditing 테스트 코드 수행 결과
+  <img width="270" alt="스크린샷 2022-09-21 오전 2 42 14" src="https://user-images.githubusercontent.com/80513699/191327192-823887ba-9bba-4f91-85ac-0e57e725e4fc.png"><br>
+  domain 패키지에 BaseTimeEntity 클래스 생성<br>
+  <img width="720" alt="스크린샷 2022-09-21 오전 2 41 46" src="https://user-images.githubusercontent.com/80513699/191327096-0dd02909-8267-4a45-b82e-29990259e046.png"><br>
+  JPA Auditing 테스트 코드 수행 결과<br>
 </div>
 </details>
   
