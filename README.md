@@ -25,6 +25,17 @@
      2.4 Hello Controller 코드를 롬복으로 전환하기<br>
     </td>
   </tr>
+  
+  <tr>
+    <td>03장 스프링 부트에서 JPA로 데이터베이스 다뤄보자</td>
+    <td> 
+     3.1 JPA 소개<br>
+     3.2 프로젝트에서 Spring Data JPA 적용하기<br>
+     3.3 Spring Data JPA 테스트 코드 작성하기<br>
+     3.4 등록/수정/조회 API 만들기<br>
+     3.5 JPA Auditing으로 생성시간/수정시간 자동화히기<br>
+    </td>
+  </tr>
 </table>
 
 <br>
